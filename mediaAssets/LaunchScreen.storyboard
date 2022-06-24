@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="SoM-hi-wOh">
+                                <rect key="frame" x="177" y="563" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="1Ps-5a-wQE">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GlitchiO 2022 © Daniel Buzzo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EZA-ql-w2o">
+                                <rect key="frame" x="0.0" y="626" width="375" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="hCy-Sg-N4N">
+                                <rect key="frame" x="-83" y="0.0" width="541" height="406"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="hCy-Sg-N4N" secondAttribute="height" multiplier="341:256" id="7bg-Pd-V4M"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="glitch brand" translatesAutoresizingMaskIntoConstraints="NO" id="f1Z-3v-kGw">
+                                <rect key="frame" x="-2" y="-7" width="379" height="674"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90196078431372551" green="0.90196078431372551" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="1Ps-5a-wQE" firstAttribute="centerX" secondItem="hCy-Sg-N4N" secondAttribute="centerX" id="0OI-2L-cEK"/>
+                            <constraint firstItem="1Ps-5a-wQE" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="MQO-GI-am3"/>
+                            <constraint firstItem="1Ps-5a-wQE" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="dq4-Qv-rDP"/>
+                            <constraint firstItem="hCy-Sg-N4N" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="hF8-3a-UTD"/>
+                            <constraint firstItem="1Ps-5a-wQE" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" id="hsl-L6-dMb"/>
+                            <constraint firstItem="hCy-Sg-N4N" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="neI-al-F3p"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="373.76311844077964"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Background" width="736" height="736"/>
+        <image name="Logo" width="512" height="512"/>
+        <image name="glitch brand" width="750" height="1334"/>
+    </resources>
+</document>
